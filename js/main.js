@@ -1,7 +1,7 @@
 
 $(function() {
 	
-	$("textInput").focus();
+	$("#textInput").focus();
 	
 	//properties
 	var mousePosition = $("html").asEventStream("mousemove").map(e=>[e.clientX,e.clientY]).toProperty("");
